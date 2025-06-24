@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Música Internacional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎵 Player de Música Internacional</h1>
+        <button id="toggle-theme">🌙 Modo Escuro</button>
+    </header>
+
+    <div class="player">
+        <ul id="music-list"></ul>
+    </div>
+
+    <footer class="footer">
+        <div class="controls">
+        <button id="prev">⏮️</button>
+        <button id="play">▶️</button>
+        <button id="next">⏭️</button>
+        <button id="loop">🔁</button>
+    </div>
+
+    <div class="time-info">
+        <span id="current-time">0:00</span>
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+        </div>
+        <span id="duration">0:00</span>
+    </div>
+
+    <div class="volume-control">
+        <label for="volume">🔊</label>
+        <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+    </div>
+    </footer>
+
+    <audio id="audio"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
