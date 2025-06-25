@@ -1,7 +1,8 @@
 const musicList = [
     { name: "1 - Alok, Bruno Martini, Zeeba - Never Let Me Go", file: "./1 - Alok, Bruno Martini, Zeeba - Never Let Me Go.mp3" },
     { name: "2 - Tiësto & Karol G - Don't Be Shy", file: "./2 - Tiësto & Karol G - Don't Be Shy.mp3" },
-    { name: "3 - SIA - Unstoppable  Lyryics", file: "./3 - SIA - Unstoppable  Lyryics.mp3" }
+    { name: "3 - SIA - Unstoppable  Lyryics", file: "./3 - SIA - Unstoppable  Lyryics.mp3" },
+    { name: "4 - axwell Λ Ingrosso  - More Than You Know", file: "./4 - axwell Λ Ingrosso  - More Than You Know.mp3" }
 ];
 
 const audio = document.getElementById('audio');
